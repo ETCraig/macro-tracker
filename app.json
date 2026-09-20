@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "macro-ctracker",
-    "slug": "macro-ctracker",
+    "slug": "macro-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "868fc90d-0561-4fbe-b72c-a19e18f06929"
+      }
+    },
+    "owner": "et-craig"
   }
 }
